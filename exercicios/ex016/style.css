@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+*{
+font-size: 1em;
+}
+
+body{
+background-image: linear-gradient(to bottom, #024959 70%, #024959 20%, #3CA6A6);
+background-attachment: fixed;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Medidas Absolutas
+
+cm, mm, in, px, pt, pc
+cm: Centimetro
+mm: Milímetro
+in: Polegada
+px: Pixel
+pt: ponto
+Pc: pycca
+
+
+Medidas Relativas
+
+em, ex, rem, vw, vh, %
+em: Relativo a letra M maiúscula da font
+ex: Relativo a letra x minúscula da font
+rem: Relativo a font configurada no <Body>
+vw: largura da viewport
+vh: altura da viewport
+
+W3C recomenda a utilização do px/em
+
+16px geralmente é = 1em
+*/
+
+/*Lighter, Normal, Bold, Bolder*/
+/* wight, width, height
+
+Weight: Peso
+Width: Largura
+Heigt: Altura
+*/
+
+
+main{
+background-image: linear-gradient( white, grey, black);
+border-radius: 3%;
+height: 700px;
+width: 650px;
+margin: auto;
+box-shadow: 5px 5px 6px rgb(5, 55, 77);
+padding: 10px;
+}
+
+h1{
+/* ShortHand font
+
+Sequência Correta
+font-style -> font-weight -> font-size -> font-family */
+font: italic bolder 3em Georgia, Times, serif;
+text-decoration: underline;
+}
+
+h2{
+font: italic bolder 1.5em georgia, times, serif;
+}
+
+p{
+text-align: justify;
+font: normal 1em arial, serif
+}

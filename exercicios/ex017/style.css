@@ -1,0 +1,34 @@
+@charset "UTF-8";
+    
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+background-image: linear-gradient(rgb(1, 1, 190), rgb(0, 0, 179), rgb(1, 1, 138));
+background-attachment: fixed;
+text-align: justify;
+color: rgb(1, 1, 96);
+}
+
+main{
+background-color: white;
+height: 700px;
+width: 600px;
+margin: auto;
+border-radius: 3%;
+padding: 2%;
+box-shadow: 6px 5px 5px rgb(2, 2, 93);
+}
+
+h1{
+text-align: center;
+text-decoration: underline;
+}
+
+p {
+font-weight: 500;
+}
+
+a{
+text-decoration: none;
+color: red;
+}

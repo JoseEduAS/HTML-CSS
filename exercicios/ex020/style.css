@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+main {
+background-color: white;
+width: 700px;
+height: 700px;
+border-radius: 30px;
+padding: 2%;
+margin: auto;
+text-align: justify;
+}
+
+body {
+background-image: linear-gradient( to bottom, #455559, #28403D, #182625);
+background-attachment: fixed;
+
+}
+
+div {
+background-color: #3D5A73;
+text-align: center;
+height: 200px;
+width: 200px;
+border: 1px solid black;
+display: inline-block;
+
+}
+
+div:hover {
+background-color: #4689c4;
+}

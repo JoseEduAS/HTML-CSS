@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+    em HTML é id = em CSS é # ( Só pode um elemento por página)
+    em HTML é class = em CSS é . ( Pode vários elementos)
+*/
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, rgba(0, 189, 189, 0.735), rgb(0, 118, 118), rgb(0, 54, 54));
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    height: 1700px;
+    width: 600px;
+    margin: auto;
+    border-radius: 50px;
+    padding: 3%;
+    color: rgb(8, 95, 95);
+    text-align: justify;
+    box-shadow: 4px 5px 5px rgb(7, 76, 76);
+}
+
+h1,h2 {
+    font-family: "Dancing Script", cursive, serif; 
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+h1#principal {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 199, 199);
+    box-shadow: 3px 4px 4px rgb(0, 92, 87);
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: rgb(0, 131, 131);
+}
+
+.basico {
+color: #39BAFA;
+}
+
+.intermediario {
+color: #397DFA;
+}
+
+.avançado {
+color: #035a6b;
+}
+
+p {
+    font-family: "Inter", arial, san-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    text-indent: 20px;
+}
+
+.trecho {
+text-decoration: underline;
+color: rgb(1, 124, 124);
+font-weight: bolder;
+}
+
+
+a {
+text-decoration: none;
+}
+
+.proxima {
+text-align: right;
+font-size: 1em;
+font-weight: bolder;
+color: #0059ff;
+}

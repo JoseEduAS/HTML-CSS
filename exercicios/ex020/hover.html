@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+
+
+    <style>
+
+        body {
+            background-image: linear-gradient( to bottom, white, black );
+            background-attachment: fixed;
+        }
+
+        main {
+            background-color: rgb(42, 42, 42);
+            color: white;
+            padding: 3%;
+            border-radius: 30px;
+            width: 500px;
+            height: 350px;
+            box-shadow: 4px 4px 5px rgb(120, 120, 120);
+            margin: auto;
+        }
+
+        div:hover{
+            color: red;
+        }
+
+        div > p {
+            display: none;
+            color: rgb(255, 255, 255);
+        }
+
+        div:hover > p {
+            display: block;
+            text-decoration: underline;
+            background-color: black;
+            width: 500px;
+            font-size: 0.8em;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: right
+            ;
+        }
+
+        .pagina {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: right;
+        }
+        .d1 {
+            text-align: center;
+            font-size: 2em;
+        }
+    </style>
+
+</head>
+<body>
+    <main>
+    <p class="pagina">pagina 1</p>
+        <h1> Exemplo de Hover </h1>
+            <p>Passe o mouse sobre o texto abaixo :) </p>
+                <div class="d1">
+                    Passe o mouse aqui
+                    <p>Corinthians o maior time do mundo</p>
+                </div>
+            <p>Fim do Exemplo</p>
+            <a href="index.html">
+                <p>
+                    pagina inicial
+                </p>
+            </a>
+    </main>
+</body>
+</html>
