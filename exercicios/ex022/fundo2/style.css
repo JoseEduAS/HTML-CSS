@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(../imagens/pattern001.png);
+    background-repeat: repeat;
+}
+
+h1.titulo{
+    color: white;
+}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(imagens/wallpaper002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div{
+    border: 5px solid black;
+    border-radius: 13px;
+    background-color: rgb(186, 186, 186);
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+/* 3 Maneiras de mudar o Background*/
+div#q1{
+    background-color: skyblue;
+}
+
+div#q2{
+    background-image: linear-gradient(to top, blue, lightblue);
+}
+
+div#q3{
+    background-image: url('imagens/pattern002.png');
+}
