@@ -1,1 +1,15 @@
 @charset "UTF-8";
+
+#container{
+    height: 500px;
+    background-color: skyblue;
+    padding: 10px;
+    position: relative;
+}
+
+#conteudo{
+    height: 200px;
+    background-color: blue;
+    width: 400px;
+    position: absolute;
+}
