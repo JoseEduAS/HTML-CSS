@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    font-family: monocraft;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+}
+
+caption{
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.vermelho{
+background-color: rgba(255, 0, 0, 0.633);
+}
+.amarelo{
+background-color: rgba(255, 255, 0, 0.633);
+}
