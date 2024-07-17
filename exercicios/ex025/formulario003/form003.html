@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+<!------------Estilo------------>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+            background-image:linear-gradient(120deg, blue, cyan, lightblue);
+            background-attachment: fixed;
+        }
+
+        main{
+            background-color: white;
+            background-size: auto;
+            
+            position: relative;
+            top: 50%;
+            left: 0%;
+            transform: translate(0%, 30%);
+
+            width: 400px;
+            height: auto;
+
+            border-radius: 20px;
+            padding: 20px;
+            margin: auto;
+
+            box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.459);
+        }
+
+        main > h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<!-----------Título----------->
+    <main>
+        <h1>Teste de Formulário</h1>
+
+<!------------Formulário------------>
+            <form action="cadastro.php" method="get" autocomplete="on">
+
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required maxlength="30" minlength="4" placeholder="Nome Completo" size="40" autocomplete="name">
+            </p>
+            <p>
+                <label for="imedia">Média:</label>
+                <input type="number" name="media" id="imedia" required placeholder="0 a 10" min="0" max="10" size="20" step="0.5" value="0">
+            </p>
+            <p>
+                <label for="imes">Ano Letivo:</label>
+                <input type="month" name="mes" id="imes" required value="2024-07">
+            </p>
+            <p>
+                <label for="idia">Data de Nascimento:</label>
+                <input type="date" name="dia" id="idia" required value="2024-07-17">
+            </p>
+            <p>
+                <label for="ihora">Hora:</label>
+                <input type="time" name="hora" id="ihora" required>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+
+            </form>
+    </main>
+</body>
+</html>
