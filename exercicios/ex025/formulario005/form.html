@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body{
+            background-image: linear-gradient(-70deg, rgb(240, 77, 77),  red, rgb(104, 0, 0));
+            background-attachment: fixed;
+        }
+        main{
+            background-color: white;
+            
+            padding: 20px;
+            width: 400px;
+            height: auto;
+            margin: auto;
+
+            border-radius: 20px;
+            border: 2px solid rgb(0, 0, 0);
+            box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.397);
+            position: relative;
+            top: 0px;
+            left: 0px;
+            transform: translate(-0px, 90px);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de Formulário</h1>
+        <fieldset>
+            <legend>Sexo</legend>
+                <form action="cadastro.php" autocomplete="on" method="post">
+            <!--------------Radio------------->
+                    <label for="imas">
+                        <input type="radio" name="sexo" id="imas" value="M" checked>Masculino <br>
+                    </label>
+
+                    <label for="ifem">
+                        <input type="radio" name="sexo" id="ifem" value="F">Feminino<br>
+                    </label>
+        </fieldset>
+
+            <!------------Checkbox------------>
+        <fieldset>
+            <legend>Melhores Times de Futebol</legend>
+                    <label for="iescor">
+                        <input type="checkbox" name="escor" id="iescor" value="Cor"> Corinthians
+                    </label> <br>
+
+                    <label for="iesbar">
+                        <input type="checkbox" name="esbar" id="iesbar" value="Bar"> Barcelona
+                    </label> <br>
+
+                    <label for="iesgalo">
+                        <input type="checkbox" name="esgalo" id="iesgalo" value="Galo"> Galo
+                    </label> <br>
+
+                    <label for="iesche">
+                        <input type="checkbox" name="esche" id="iesche" value="Cheal"> Chelsea
+                    </label> <br>
+
+                    <label for="iesfla">
+                        <input type="checkbox" name="esfla" id="iesfla" value="Fla"> Flamengo
+                    </label> <br>
+
+                    <label for="iesgre">
+                        <input type="checkbox" name="esgre" id="iesgre" value="Gre"> Gremio
+                    </label> <br>
+                </p>
+        </fieldset>
+        <p><!--------------Botão------------->
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </main>
+    
+    
+    </form>
+</body>
+</html>
