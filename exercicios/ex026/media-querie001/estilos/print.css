@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/*ESTILOS PARA IMPRESSÃO*/
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+menu{
+    display: none;
+}
+
+article{
+    width: 100%;
+}
+
+article::after{
+    content: 'Esse artigo foi feito por Yuri Alberto, maior camisa 9 da historia do clube Corinthias Paulista https://youtube.com/corinthians';
+}

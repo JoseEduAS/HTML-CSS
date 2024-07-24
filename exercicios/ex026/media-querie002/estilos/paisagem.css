@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*Paisagem (Landscape)*/
+
+body{
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
