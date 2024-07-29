@@ -85,7 +85,7 @@ main{
     margin: auto;
     margin-top: 10px;
 
-    max-width: 700px;
+    max-width: 80dvw;
     min-height: 400px;
 
     background-color: rgb(92, 92, 92);
@@ -101,6 +101,8 @@ main article{
 }
 
 article > h2{
+    color: rgb(114, 4, 4);
+
     padding-bottom: 30px;
     text-decoration: underline;
 }

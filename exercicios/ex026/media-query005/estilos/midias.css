@@ -1,7 +1,37 @@
 @charset "UTF-8";
 
-@media  and (min-width: 600px) and (max-width: 768px){
+@media print{
 
 }
 
+@media screen and (min-width: 992px){
 
+    i#burguer{
+        display: none;
+    }    
+    
+    menu{
+        background-color: white;
+        display: block;
+        padding: 0px;
+    }
+
+    menu a{
+        color: black;
+        background-color: transparent;
+    }
+
+    menu a:hover{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+    }
+
+    menu > ul > li{
+        display: inline-block;
+        margin: 0px;
+    }
+
+    main{
+        width: 992px;
+    }
+}
