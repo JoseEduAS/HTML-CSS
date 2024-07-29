@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/*Configurações Mobile First*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+
+    box-sizing: border-box;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    height: 100dvh;
+
+}
+
+body{
+    background: black url(../imagens/back-phone.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.39);
+
+    width: 90dvw;
+    margin: auto;
+    margin-top: 30px;
+    padding: 13px;
+
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.719);
+    font-size: 2.2em;    
+
+    color: white;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+    img#iphone{display: block;}
+    img#itablet{display: none;}
+    img#iprint{display: none;}
+    img#ipc{display: none;}
+    img#itv{display: none;}
+
+/*Impressão*/
+@media print {
+    
+    *{
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+    
+    body {
+        background-image: url(../imagens/back-print.jpg);/* Desnecessário*/
+
+    }
+
+    main{
+        border: 2px solid black;
+    }
+
+    main h1{
+        color: black;
+
+        text-shadow: none;
+    }
+
+    img#iphone {display: none;}
+    img#itablet {display: none;}
+    img#iprint {display: block;}
+    img#ipc {display: none;}
+    img#itv {display: none;}
+}
+
+/*Tablets*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#iphone {display: none;}
+    img#itablet {display: block;}
+    img#iprint {display: none;}
+    img#ipc {display: none;}
+    img#itv {display: none;}
+}
+
+/*Desktops*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#iphone {display: none;}
+    img#itablet {display: none;}
+    img#iprint {display: none;}
+    img#ipc {display: block;}
+    img#itv {display: none;}
+}
+
+/*Grandes Telas*/
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    img#iphone {display: none;}
+    img#itablet {display: none;}
+    img#iprint {display: none;}
+    img#ipc {display: none;}
+    img#itv {display: block;}
+}
