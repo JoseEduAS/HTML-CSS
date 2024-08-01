@@ -15,8 +15,9 @@
         border-radius: 10px;
         padding: 10px;
         height: 700px;
-        width: 100%;
+        width: 500px;
         text-align: justify;
+        margin: auto;
     }
 
     a{
@@ -27,10 +28,10 @@
 </style>
 <main>
     
-    <a href="https://joseeduas.github.io/HTML-CSS/exercicios/ex026/media-querie002/mq002.html">Exercício de Media Query :)</a>
+    <h2><a href="https://joseeduas.github.io/HTML-CSS/exercicios/ex026/media-querie002/mq002.html">Exercício de Media Query :)</a></h2>
     <br>
-    <a href="https://joseeduas.github.io/HTML-CSS/exercicios/ex026/media-query005/mq005.html"> Mini projeto de Midia Query</a>
+    <h2><a href="https://joseeduas.github.io/HTML-CSS/exercicios/ex026/media-query005/mq005.html"> Mini projeto de Midia Query</a></h2>
     <br>
-    <a href="https://joseeduas.github.io/HTML-CSS/exercicios/ex027/mini-projeto001.2/login.html">Mini projeto de tela de login</a>
+    <h2><a href="https://joseeduas.github.io/HTML-CSS/exercicios/ex027/mini-projeto001.2/login.html">Mini projeto de tela de login</a></h2>
 
 </main>
