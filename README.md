@@ -24,6 +24,15 @@
         cursor: pointer;
         font-size: 1.2em;
         margin-bottom: 8px;
+        color:#904CE6;
+    }
+
+    h1{
+        text-align: center;
+        background-color: white;
+        border-radius: 8px;
+        font-size:2.3em;
+        color: #6A4CE6;
     }
 
     h2{
