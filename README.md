@@ -14,7 +14,7 @@
         background-color: white;
         border-radius: 10px;
         padding: 10px;
-        height: 700px;
+        height: auto;
         width: 90dvw;
         text-align: justify;
         position: absolute;
