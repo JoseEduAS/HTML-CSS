@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    background-color: #8D14E3;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    background-image: url(../imagens/cidade-p.jpg);
+    background-size: 260px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 13px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.466);
+
+    margin: auto;
+    padding: 15px;
+    width: 230px;
+    height: 500px;
+
+    text-align: center;
+}
+
+main h1{
+    margin-bottom: 15px;
+
+    font-weight: bolder;
+}
+
+main p{
+    margin-bottom: 20px;
+
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.material-symbols-outlined{
+    color: white;
+    display: block;
+}
+
+div#imagem > img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+div#email{
+    background-color: #8D14E3;
+    border-radius: 10px;
+    border: 1px solid #ae65e2;
+
+    margin-bottom: 3px;
+}
+input#imail{
+    padding: 5px;
+    width: 94.5%;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid #ae65e2;
+}
+
+
+
+div#password{
+    background-color: #8D14E3;
+    border-radius: 10px;
+    border: 1px solid #ae65e2;
+
+    margin-bottom: 5px;
+}
+input#ipass{
+    padding: 5px;
+    width: 94.5%;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid #ae65e2;
+    display: block;
+}
+input::placeholder{
+    color: #4e0b7e;
+}
+
+
+#submit{
+    margin-top: 5px;
+    width: 100%;
+    padding: 6px;
+    
+    background-color: #BE88E5;
+    border: 1px solid #ae65e2;
+    border-radius: 5px;
+}
+#submit:hover{
+    background-color: #8D14E3;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+
+    transition-duration: .3s;
+}
+
+#botao{
+    margin-top: 5px;
+    width: 100%;
+    padding: 6px;
+    
+    background-color: white;
+    border: 1px solid #ae65e2;
+    border-radius: 5px;
+}
+#botao:hover{
+    background-color: #8D14E3;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+
+    transition-duration: .3s;
+}
+
+label{
+    display: none;
+}
+
