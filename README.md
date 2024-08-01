@@ -18,6 +18,10 @@
         width: 500px;
         text-align: justify;
         margin: auto;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
     }
 
     a{
