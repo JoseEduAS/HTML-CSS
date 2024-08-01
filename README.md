@@ -15,7 +15,7 @@
         border-radius: 10px;
         padding: 10px;
         height: 700px;
-        width: 500px;
+        width: 90dvw;
         text-align: justify;
         position: absolute;
         top:50%;
