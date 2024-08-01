@@ -33,8 +33,11 @@
         border-radius: 8px 8px 0px 0px;
         font-size:2.3em;
         color: #6A4CE6;
-        margin-bottom:0px;
         text-decoration: underline #904CE6;
+    }
+
+    .markdown-body h1{
+        margin-bottom: 0px;
     }
 
     h2{
