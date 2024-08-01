@@ -1,6 +1,7 @@
 # HTML-CSS
     Curso de HTML5 e CSS3
 .
+<html lang="pt-br">
 
 <style>
     body{
@@ -34,7 +35,7 @@
         text-align: center;
         background-color: white;
         border-radius: 8px 8px 0px 0px;
-        font-size:2.3em;
+        font-size:2.1em;
         color: #6A4CE6;
         text-decoration: underline #904CE6;
     }
@@ -56,3 +57,4 @@
     <h2><a href="https://joseeduas.github.io/HTML-CSS/exercicios/ex027/mini-projeto001.2/login.html" target="blank_">Mini projeto de tela de login</a></h2>
 
 </main>
+</html>
