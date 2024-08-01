@@ -14,15 +14,16 @@
         background-color: white;
         border-radius: 10px;
         padding: 10px;
-        height: auto;
-        width: 500px;
+        height: 700px;
+        width: 100%;
         text-align: justify;
     }
 
     a{
         cursor: pointer;
         font-size: 1.2em;
-    }
+        margin-bottom: 8px;
+    } 
 </style>
 <main>
     
