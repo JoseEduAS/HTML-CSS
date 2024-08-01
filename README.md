@@ -1,7 +1,6 @@
 # HTML-CSS
     Curso de HTML5 e CSS3
 .
-<html lang="pt-br">
 
 <style>
     body{
