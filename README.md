@@ -17,7 +17,6 @@
         height: 700px;
         width: 500px;
         text-align: justify;
-        margin: auto;
         position: absolute;
         top:50%;
         left:50%;
