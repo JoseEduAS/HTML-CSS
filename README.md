@@ -43,10 +43,10 @@
 </style>
 <main>
     
-    <h2><a href="https://joseeduas.github.io/HTML-CSS/exercicios/ex026/media-querie002/mq002.html">Exercício de Media Query :)</a></h2>
+    <h2><a href="https://joseeduas.github.io/HTML-CSS/exercicios/ex026/media-querie002/mq002.html" target="blank_">Exercício de Media Query :)</a></h2>
     <br>
-    <h2><a href="https://joseeduas.github.io/HTML-CSS/exercicios/ex026/media-query005/mq005.html"> Mini projeto de Midia Query</a></h2>
+    <h2><a href="https://joseeduas.github.io/HTML-CSS/exercicios/ex026/media-query005/mq005.html" target="blank_"> Mini projeto de Midia Query</a></h2>
     <br>
-    <h2><a href="https://joseeduas.github.io/HTML-CSS/exercicios/ex027/mini-projeto001.2/login.html">Mini projeto de tela de login</a></h2>
+    <h2><a href="https://joseeduas.github.io/HTML-CSS/exercicios/ex027/mini-projeto001.2/login.html" target="blank_">Mini projeto de tela de login</a></h2>
 
 </main>
