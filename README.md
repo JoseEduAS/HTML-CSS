@@ -24,7 +24,11 @@
         cursor: pointer;
         font-size: 1.2em;
         margin-bottom: 8px;
-    } 
+    }
+
+    h2{
+        text-align: center;
+    }
 </style>
 <main>
     
