@@ -46,7 +46,7 @@
 </style>
 <main>
     
-    <h2><a href="https://joseeduas.github.io/HTML-CSS/exercicios/ex026/media-querie002/mq002.html" target="blank_">Exercício de Media Query :)</a></h2>
+    <h2><a href="https://joseeduas.github.io/HTML-CSS/exercicios/ex026/media-query002/mq002.html" target="blank_">Exercício de Media Query :)</a></h2>
     <br>
     <h2><a href="https://joseeduas.github.io/HTML-CSS/exercicios/ex026/media-query005/mq005.html" target="blank_"> Mini projeto de Midia Query</a></h2>
     <br>
